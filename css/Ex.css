@@ -1,0 +1,31 @@
+.color{
+    background-color: gray;
+    padding: 0px 5px;
+}
+.mod{
+    max-width: 100%;
+}
+.verde{
+    color: greenyellow;
+}
+.naranja{
+    color: orange;
+}
+.azul{
+    color: blue;
+}
+.verdep{
+    background-color: greenyellow;
+}
+.naranjap{
+    background-color: orange;
+}
+.azulp{
+    background-color: blue;
+}
+.altura{
+    height: 225px;
+}
+.insdsv{
+    display: none
+}

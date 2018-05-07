@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/Ex.css" />
+    <script src="../js/EX.js"></script>
+</head>
+<body>
+        <div class= "container-fluid">
+                <div class="row flexrow">
+                        <div class="col-sm-4 col-12 col-md-4  color">
+                            <div class="card" style="">
+                                <img class="card-img-top" src="../img/web.png" alt="Card image cap">
+                                <div class="card-body">
+                                  <h5 class="card-title naranja">Crea</h5>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">1 Diferencias entre etiqueta p y etiqueta div </li>
+                                  <li class="list-group-item">2 ¿Por qué no usar WYSIWYG o CMS?</li>
+                                  <li class="list-group-item">3 Menciona 2 preprocesadores de CSS</li>
+                                  <li class="list-group-item">4 En JavaScript ¿quée es getElementById?</li>
+                                </ul>
+                                <div class="card-body naranjap">
+                                  <button class="btn btn-primary mt-3" type="button" onclick="toggler1()">Respuestas</button>
+                                </div>
+                                <div id="res1" class="card-body bg-light altura_card_body invisible">
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">1 La etiqueta p tiene margen y formato predefinido y la etiqueta div no tiene un formato </li>
+                                  <li class="list-group-item">2 Tiene limitaciones </li>
+                                  <li class="list-group-item">3 Less y sass</li>
+                                  <li class="list-group-item">4 Se usa para llamar a un elemento por su id</li>
+                                </ul>
+                              </div>
+                              </div> 
+
+                        </div>        
+                    <div class="col-sm-4 col-12 col-md-4 col-xx-4 color">
+                        <div class="card" style="">
+                            <img class="card-img-top" src="../img/www.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title azul">Aprende</h5>
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item">1 ¿Qué es minificación de CSS? </li>
+                                <li class="list-group-item">2 ¿cómo poner variables en CSS?</li>
+                                <li class="list-group-item">3 Diferencia entre innerHTML y write</li>
+                                <li class="list-group-item">4 Menciona 3 eventos para ejecutar una función en JavaScript</li>
+                              </ul>
+                            </div>
+                            <div class="card-body azulp">
+                              <button class="btn btn-primary mt-3" type="button" onclick="toggler2()">Respuestas</button>
+                            </div>
+                            <div id="res2" class="card-body bg-light altura_card_body invisible">
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">1 Sirve para comprimir un archivo CSS, Elimina espacios y quita saltos de linea </li>
+                              <li class="list-group-item">2 :root { --color_principal : red; }</li>
+                              <li class="list-group-item">3 Después de innerHTML va un igual para asignarle un valor. En write lleva el valor entre paréntesis</li>
+                              <li class="list-group-item">4 onclick: cuando das click - onload: cuando la página ha sido cargada - onkeypress: cuando presionas una tecla</li>
+                            </ul>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-sm-4 col-12 col-md-4 col-xx-4 color">
+                        <div class="card" style="">
+                            <img class="card-img-top" src="../img/web.png" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title verde">Imagina</h5>
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item">1 Menciona 3 librerías de Front-end </li>
+                                <li class="list-group-item">2 ¿Qué es un preprocesador de CSS?</li>
+                                <li class="list-group-item">3 ¿Qué es una librería?</li>
+                                <li class="list-group-item">4 Diferencia entre JavaScript y Java</li>
+                              </ul>
+                            </div>
+                            <div class="card-body verdep">
+                              <button class="btn btn-primary mt-3" type="button" onclick="toggler3()">Respuestas</button>
+                            </div>
+                            <div id="res3" class="card-body bg-light altura_card_body invisible"></div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">1 Bootstrap - Foundation - Materialize </li>
+                              <li class="list-group-item">2 Le da un extencion de funciones a el CSS y tener más flexibilidad al momento del desarrollo</li>
+                              <li class="list-group-item">3 Conjunto de instrucciones definidas para un fin o funcionalidad. Se puede usar o omitir sin efectos secundarios.</li>
+                              <li class="list-group-item">4 JavaScript es un lenguaje interpretado, y Java es compilado</li>
+                            </ul>
+                            </div>
+                        </div>
+                          </div>
+                    </div>
+                </div>
+        </div>
+</body>
+</html>
